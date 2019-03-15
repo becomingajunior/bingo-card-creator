@@ -1,3 +1,4 @@
+gem "prawn"
 
 # frozen_string_literal: true
 
