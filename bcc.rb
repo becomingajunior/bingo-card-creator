@@ -1,3 +1,11 @@
+def align(num)
+    if num < 10
+        "  #{num}"
+    else
+        " #{num}"
+    end
+end
+
 b_col = (1..15).to_a.sample(5)
 i_col = (16..30).to_a.sample(5)
 n_col = (31..45).to_a.sample(4)
